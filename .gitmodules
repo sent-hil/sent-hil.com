@@ -1,0 +1,9 @@
+[submodule "stats"]
+	path = stats
+	url = https://github.com/sent-hil/dokku-gocounter.git
+[submodule "blog"]
+	path = blog
+	url = https://github.com/sent-hil/sent-hil.github.io.git
+[submodule "graph"]
+	path = graph
+	url = https://github.com/sent-hil/dokku-hasura.git

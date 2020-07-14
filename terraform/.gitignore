@@ -1,0 +1,3 @@
+tf-store.tf
+variables.tf
+*.tfstate
