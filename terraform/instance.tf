@@ -2,8 +2,8 @@
 # Public facing Dokku instance.
 # -----------------------------------------------------------------------------
 resource "aws_instance" "instance_1" {
-  ami                         = "ami-0a63f96e85105c6d3" # Ubuntu 18.04 LTS
-  instance_type               = "t2.micro"
+  ami                         = var.ubuntu_ami
+  instance_type               = var.instance_type
   associate_public_ip_address = true
   key_name                    = var.keypair_name
   subnet_id                   = aws_subnet.pub_subnet.id
