@@ -14,9 +14,7 @@ The apps need to be submodules for dokku to work.
 ## Setup
 
 ```
-git submodule add https://github.com/sent-hil/sent-hil.github.io.git blog
-git submodule add https://github.com/sent-hil/dokku-hasura.git graph
-git submodule add https://github.com/sent-hil/dokku-gocounter.git stats
+git clone --recurse-submodules -j8 git@github.com:sent-hil/sent-hil.com.git
 ```
 
-If you're going to use this to create a similar setup, I would highly recommend you install fail2ban and harden the EC2 instance.
+If you use this to create a similar setup, I recommend you install fail2ban and harden the EC2 instance.
